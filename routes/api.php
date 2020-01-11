@@ -3,7 +3,6 @@
 //herkese açık route
 Route::post('login', 'UserController@login');
 Route::post('register', 'UserController@register');
-Route::post('addrecord', 'SensorController@kayitekle');
 Route::get('adddata', 'SensorController@dataadd');
 Route::get('searchmongo', 'SensorController@mongoConnect');
 Route::post('insertmongo', 'SensorController@mongoinsert');
